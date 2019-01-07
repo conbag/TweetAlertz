@@ -8,7 +8,7 @@ const smtpConfig = {
 
 const transporter = nodemailer.createTransport(smtpConfig);
 
-// Email Config and setup
+// Email Config and Setup
 
 const Twitter = require('twitter-node-client').Twitter;
 const twitterConfig = require('./data/twitter_config.json');
